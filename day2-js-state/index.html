@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 2 - JS-State</title>
+    </head>
+    <body>
+        <button id="mb">click</button>
+        <script>
+            const btn=document.getElementById("mb");
+            console.log(btn);
+            let isClicked=false;
+            btn.addEventListener("click", function()
+        {
+            if(isClicked)
+        {
+            btn.textContent="Click Me";
+            isClicked=false;
+        }
+        else
+        {
+            btn.textContent="Clicked";
+            isClicked=true;
+        }
+        });
+        </script>
+    </body>
+</html>
