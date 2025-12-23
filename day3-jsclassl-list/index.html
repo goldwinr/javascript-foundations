@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 3 - Classlist</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button id="mybutton">Click</button>
+        <script>
+            const btn=document.getElementById("mybutton");
+            console.log(btn);
+            btn.addEventListener("click",function()
+        {
+            btn.classList.toggle("active");
+        });
+        </script>
+    </body>
+</html>
