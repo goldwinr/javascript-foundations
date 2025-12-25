@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 4 - Toggle Button</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button id="tbtn">Show / Hide</button>
+        <div id="panel">
+            This is a hidden panel. It will show and hide.
+        </div>
+        <script>
+            const btn=document.getElementById("tbtn");
+            const panel=document.getElementById("panel");
+            btn.addEventListener("click", function()
+        {
+            panel.classList.toggle("hidden");
+        });
+        </script>
+    </body>
+</html>
