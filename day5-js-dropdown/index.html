@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 5 - Dropdown</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button id="button" >Hide Panel</button>
+        <div id="panel">
+            This is hidden panel.
+        </div>
+        <script>
+            const btn=document.getElementById("button");
+            const pan=document.getElementById("panel");
+            btn.addEventListener("click", function()
+        {
+            pan.hidden=!pan.hidden;
+            if(pan.hidden)
+        {
+            btn.textContent="Show Panel";
+        }
+        else
+        {
+            btn.textContent="Hide Panel";
+        }
+        })
+        </script>
+    </body>
+</html>

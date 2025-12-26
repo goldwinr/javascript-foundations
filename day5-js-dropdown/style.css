@@ -1,0 +1,8 @@
+.hidden{
+    display: none;
+}
+
+#panel{
+    width: 200px;
+    margin-top: 10px;
+}
