@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 7</title>
+    </head>
+    <body>
+        <label>Name</label>
+        <input id="username" type="text" placeholder="Enter your name">
+        <button id="submit">Submit</button>
+        <p id="result"></p>
+        <script>
+            const uname=document.getElementById("username");
+            const btn=document.getElementById("submit");
+            const res=document.getElementById("result");
+            function handlesubmit()
+            {
+                const val=uname.value;
+                if(val==="")
+            {
+                res.textContent="Please enter your name";
+            }
+            else
+            {
+                res.textContent="Hello "+val;
+            }
+            }
+            btn.addEventListener("click", handlesubmit);
+        </script>
+    </body>
+</html>
