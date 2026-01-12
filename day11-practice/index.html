@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+    <title>Practice Day 11</title>
+</head>
+<body>
+    <h1>Welcome to Day 11 Practice</h1>
+    <script>
+        console.log("Hello, Day 11!");
+        let fname="Goldwin";
+        let lname="Akash";
+        console.log("I am "+fname+" "+lname+".");
+        console.log(`I am ${fname} ${lname}.`);
+        let msg1=`
+        Happy 
+        Birthday 
+        ${fname}.`;
+        console.log(msg1);
+        let itemCount=5;
+        let Total="$95";
+        let msg2=`
+        You have ${itemCount} in your cart.
+        Your bill amount is ${Total}.`;
+        console.log(msg2);
+        let cities=["chennai","Madurai","Kanyakumari","Trichy"];
+        console.log(cities);
+        console.log(cities.length);
+        console.log(cities[2]);
+        console.log(cities[cities.length-1]);
+        cities.push("Coimbatore");
+        console.log(cities);
+        cities.pop();
+        console.log(cities.shift());
+        console.log(cities.unshift("Chennai"));
+        console.log(cities);
+        cities.splice(0,1);
+        console.log(cities);
+        console.log(cities);
+        let arr=[1,2,'a',true,[2,3]];
+        console.log(arr);
+        let array=['a','b','c','d','e'];
+        for(let i=0;i<array.length;i++)
+    {
+        console.log(array[i]);
+    }
+    console.log(array.slice(0,3));
+    console.log(array.reverse());
+    console.log(array.indexOf("e"));
+    let str="h,e,l,l,o";
+    let ar2=str.split(",");
+    console.log(ar2);
+    let a1=[1,2,3];
+    let a2=[4,5,6];
+    let a3=[a1,a2];
+    console.log(a3);
+    let ar3=a1.concat(a2);
+    console.log(ar3);
+    let arr3=[...a1,...a2];
+    console.log(arr3);
+    let par=[5,8,10,7,9,11];
+    console.log(par);
+    console.log(par.splice(3,3,17,19,111))
+    console.log(par);
+    console.log(par.unshift(100))
+    console.log(par.push(200))
+    console.log(par)
+    let mid=Math.floor((0+par.length)/2)
+    console.log(par[mid]=0)
+    console.log(par)
+    </script>
+</body>
+</html>
