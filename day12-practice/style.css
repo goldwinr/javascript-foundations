@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(to bottom, #498d81, #000000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid black
+}
+
+#input{
+    margin-bottom:20px;
+    width:300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button{
+    background-color: #9edacf;
+    cursor: pointer;
+}
+
+#result{
+    margin-top:20px;
+    font-size: 20px;
+    font-weight: bold;
+}
