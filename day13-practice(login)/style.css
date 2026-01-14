@@ -1,0 +1,48 @@
+body{
+    background : linear-gradient(to right, rgb(84, 84, 165),rgb(83, 0, 63));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 1px solid black;
+}
+
+#userInput{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#username{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#pass{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#password{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#btn{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background : linear-gradient(to left, rgb(84, 84, 165),rgb(83, 0, 63));
+    color: white;
+}
